@@ -1,0 +1,12 @@
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore generated QR images (so your repo stays clean)
+*.png
+*.jpg
+
+# Ignore OS metadata
+.DS_Store
+Thumbs.db
