@@ -1,12 +1,21 @@
-# Ignore virtual environments
+# Virtual environments
 .venv/
 venv/
+env/
 ENV/
 
-# Ignore generated QR images (so your repo stays clean)
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Generated images
 *.png
 *.jpg
+*.jpeg
 
-# Ignore OS metadata
+# OS files
 .DS_Store
 Thumbs.db
